@@ -1,0 +1,170 @@
+<!Doctype Html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Facebook Task</title>
+<style>
+body{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a{
+ text-decoration: none;}
+#but:hover{
+  cursor: pointer;
+  background-color: #0e385f;
+}
+#header{
+  background-color: #3b5998;
+  color: white;
+  height: 80px;
+  font-family: Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid darkblue;
+}
+#header-table{
+  float: right;
+  font-style: normal;
+  font-weight: 400;
+  font-family: Helvetica,sans-serif;
+  font-size: 12px;
+  margin-right: 135px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+#mid-body{
+  background-color: #dfe3ee;
+ 
+}
+#fb-back{
+  width: 500px;
+  height: auto;
+}
+.col-4{
+  color:#333;
+}
+.col-4 input{
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+.col-4 button:hover{
+background-color: lightgreen;
+}
+
+
+.footer{
+  font-size:20px;
+  background-color: #ffffff;
+}
+</style>
+</head>
+<body style="margin:0px;">
+<div id="header">
+</br>
+  <h1 style="font-size:40px;margin:0px;margin-left:135px;">facebook
+    <table id="header-table">
+      <form id="header-login" method="" action="">
+      <tr><td> Email or Phone</td> <td>Password</td></tr>
+      <tr><td> <input type="email" name="mail"> &ensp;</td> &emsp; <td> <input type="password" name="pass"> &ensp; </td> <td><input type="submit" id="but" name="submit" value="Log In" style="background-color:#3b5998;color:white;border:1px solid black;"></td></tr>
+      <tr><td></td><td> <a href="" style="color:#8b9dc3;">Forgotten account?</a></td><td></td></tr>
+      </form>
+    </table></h1>
+
+</div>
+
+
+<div id="mid-body">
+</br></br>
+<div class="row" style=" margin-left: 130px;margin-right: 130px;">
+<div class="col-3" style="width:50%;">
+  <h2 style="font-size:20px;color:#0e385f;;">Facebook helps you connect and share with the people in your life.</h2>
+<img src="fb.png" id="fb-back" alt="connect-image">
+</div>
+<dir class="col-3"></dir>
+
+<div class="col-4" style="margin-left: 20px; padding:0px;width: 45%;">
+<h1 style="font-size:35px;margin:0px;padding: 0px;">Create an account</h1>
+  <h3 style="font-weight: 400;margin: 10px;">It's free and always will be.</h3>
+  <table>
+    <tr>
+      <td>
+        <input type="name" name="fname" placeholder="First Name">
+      </td>
+      <td>
+        <input type="name" name="surname" placeholder="Surname" style="width: 100%;">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      <input type="text" name="phn_mail" placeholder="Mobile number or Email Address" style="width: 100%;">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      <input type="password" name="pwd" placeholder="New Password" style="width: 100%;">
+      </br></br></td>
+    </tr>
+    <tr>
+      <td>
+        Birthday
+
+      </td>
+    </tr>
+
+    <tr>
+
+      <td>
+        <input type="date" name="dob" >
+      </td>
+    </tr>
+
+     <tr>
+      <td>
+       <input type="radio" name="gender" value="female"> Female
+        &emsp;&emsp; <input type="radio" name="gender" value="male"> Male
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+    </tr>
+  </table></br></br>
+  <div style="font-size:12px;">
+      By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.
+      </div></br>
+      <button type="submit" name="submit" style="width: 140px;padding: 8px;background-color: #69a74e; border-radius: 4px;border: 1px solid green; color: white;cursor: pointer;">Sign Up</button>
+      <p style="font-size:15px;"><a href=""> Create a Page</a> for a celebrity, band or business.</p>
+
+</div>
+</div>
+</div>
+
+
+<footer style="margin-left:130px;margin-right:130px;font-size: 12px;">
+</br></br></br></br>
+  <div style="color:#8b9dc3;">English (UK) &ensp;മലയാളം &ensp;தமிழ் &ensp;ಕನ್ನಡ &ensp;हिन्दी &ensp;اردو &ensp; বাংলাతె &ensp;లుగు Español &ensp;Português &ensp;(Brasil) &ensp;Français &ensp;(France)</div>
+  <hr></hr>
+</br>  <div style="color: #8b9dc3;">Sign Up &ensp;Log In&ensp; Messenger&ensp; Facebook Lite &ensp;Mobile &ensp; Find Friends &ensp; People &ensp;Pages &ensp;Video&ensp; interests&ensp; Places&ensp; Games&ensp; Locations &ensp;Marketplace&ensp; Groups&ensp; Instagram&ensp; Local &ensp;About &ensp;Create&ensp; adCreate &ensp;Page&ensp; Developers &ensp;Careers&ensp; Privacy Cookies &ensp;AdChoices&ensp; Terms &ensp;Account&ensp; security&ensp; Login help &ensp;Help &ensp;Settings &ensp;Activity &ensp;log</div>
+</br><br>  <div style="color:#333;">Facebook © 2018</div>
+</footer>
+
+
+<script>
+console.log("Logged In");
+</script>
+</body>
+
+</html>
